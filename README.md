@@ -107,7 +107,7 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/SecureSysAdmin.git
+git clone https://github.com/FloppyAndOpticalDisksStorage/SecureSysAdmin.git
 cd SecureSysAdmin
 ```
 
@@ -140,8 +140,6 @@ pyinstaller SecureSysAdmin.spec
 - Не требует установленного Python
 - Все зависимости упакованы внутрь
 - Чистый GUI (без консольного окна)
-- При необходимости раскомментируйте `uac_admin=True` в [`SecureSysAdmin.spec`](SecureSysAdmin.spec) для автоматического запроса прав администратора
-
 ---
 
 ## 🖥 WinPE / WinRE
