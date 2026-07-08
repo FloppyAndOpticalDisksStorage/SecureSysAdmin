@@ -90,5 +90,5 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     icon=None,               # Путь к .ico если нужен
-    uac_admin=False,         # True — запрашивать права админа при запуске
+    uac_admin=True,         # True — запрашивать права админа при запуске
 )
